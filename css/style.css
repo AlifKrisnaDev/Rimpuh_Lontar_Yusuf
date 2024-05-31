@@ -228,6 +228,9 @@ body {
   margin-bottom: 1rem;
 }
 
+.about .row .content span h3 {
+  color: var(--primary);
+}
 .about .row .content p {
   margin-bottom: 0.8rem;
   font-size: 1.2rem;
@@ -235,6 +238,44 @@ body {
   line-height: 1.6;
 }
 
+/* Footer */
+footer {
+  background-color: var(--primary);
+  text-align: center;
+  padding: 1rem 0 3rem;
+  margin-top: 3rem;
+}
+
+footer .socials {
+  padding: 1rem 0;
+}
+
+footer .socials a {
+  color: #fff;
+  margin: 1rem;
+}
+
+footer .socials a:hover,
+footer .links a:hover {
+  color: var(--bg);
+}
+
+footer .links {
+margin-bottom: 1.1rem;
+}
+footer .links a {
+  color: #fff;
+  padding: 0.7rem 0.6rem;
+}
+
+footer .credit {
+  font-size: 1rem;
+}
+
+footer .credit a{
+  color: var(--bg);
+  font-weight: 700;
+}
 /* Media Queries */
 
 /* Laptop */
@@ -306,7 +347,31 @@ body {
   .materi .row .content p {
     font-size: 1.5rem;
   }
+
+  .about .row {
+    flex-wrap: wrap;
+  }
+
+  .about .row .about-img img {
+    height: 24rem;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .about .row .content {
+    padding: 0;
+  }
+
+  .about .row .content h3 {
+    margin-top: 1rem;
+    font-size: 1.8rem;
+  }
+
+  .about .row .content p {
+    font-size: 1.5rem;
+  }
 }
+
 /* Mobile Phone */
 @media (max-width: 450px) {
   html {
