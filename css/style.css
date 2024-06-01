@@ -167,7 +167,7 @@ body {
 }
 
 .materi .row .content p {
-  margin-bottom: 0.8rem;
+  margin-bottom: 1rem;
   font-size: 1.2rem;
   font-weight: 100;
   line-height: 1.6;
@@ -260,6 +260,13 @@ body {
 
 .gallery .row .gallery-img img {
   width: 100%;
+}
+
+/* Dokumentasi */
+
+.gallery .row .content p {
+  font-size: 1.3rem;
+  margin-bottom: 0.8rem;
 }
 /* Footer */
 footer {
