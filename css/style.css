@@ -228,7 +228,7 @@ body {
   margin-bottom: 1rem;
 }
 
-.about .row .content span h3 {
+.about .row .content h3 span {
   color: var(--primary);
 }
 .about .row .content p {
@@ -238,6 +238,29 @@ body {
   line-height: 1.6;
 }
 
+/* Dokumentasi */
+.gallery {
+  padding: 7rem 7% 1.4rem;
+}
+
+.gallery h2 {
+  text-align: center;
+  font-size: 2.6rem;
+  margin-bottom: 3rem;
+  color: #fff;
+}
+
+.gallery .row {
+  display: flex;
+}
+
+.gallery .row .gallery-img {
+  flex: 1 1 45rem;
+}
+
+.gallery .row .gallery-img img {
+  width: 100%;
+}
 /* Footer */
 footer {
   background-color: var(--primary);
