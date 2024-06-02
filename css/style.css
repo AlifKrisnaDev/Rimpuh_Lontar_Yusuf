@@ -269,6 +269,31 @@ body {
   margin-bottom: 0.8rem;
 }
 
+/* Poster */
+.poster {
+  padding: 7rem 7% 1.4rem;
+}
+
+.poster h2 {
+  text-align: center;
+  font-size: 2.6rem;
+  margin-bottom: 3rem;
+  color: #fff;
+}
+
+.poster .row .poster-img {
+  flex: 1 1 45rem;
+}
+
+.poster .row .poster-img img {
+  width: 100%;
+}
+
+.poster .row .content p {
+  font-size: 1.3rem;
+  margin-bottom: 0.8rem;
+}
+
 /* Footer */
 footer {
   background-color: var(--primary);
@@ -401,7 +426,9 @@ footer .credit a{
   .about .row .content p {
     font-size: 1.5rem;
   }
+
 }
+
 
 /* Mobile Phone */
 @media (max-width: 450px) {
