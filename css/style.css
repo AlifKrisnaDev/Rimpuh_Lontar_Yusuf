@@ -191,6 +191,47 @@ body {
   color: var(--primary);
 }
 
+/* Kutipan Section */
+.kutipan {
+  padding: 7rem 7% 1.4rem;
+}
+
+.kutipan h2 {
+  text-align: center;
+  font-size: 2.6rem;
+  margin-bottom: 3rem;
+  color: #fff;
+}
+
+.kutipan h2 span {
+  color: var(--primary);
+}
+
+.kutipan .row {
+  display: flex;
+}
+
+.kutipan .row .kutipan-img {
+  flex: 1 1 45rem;
+}
+
+.kutipan .row .kutipan-img img {
+  width: 100%;
+}
+
+.kutipan .row .content {
+  flex: 1 1 35rem;
+  padding: 0 1rem;
+}
+
+.kutipan .row .content p {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 100;
+  line-height: 1.6;
+}
+
+
 /* About Section */
 .about {
   padding: 7rem 7% 1.4rem;
@@ -401,6 +442,29 @@ footer .credit a{
   }
 
   .materi .row .content p {
+    font-size: 1.5rem;
+  }
+
+  .kutipan .row {
+    flex-wrap: wrap;
+  }
+
+  .kutipan .row .kutipan-img img {
+    height: 24rem;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .kutipan .row .content {
+    padding: 0;
+  }
+
+  .kutipan .row .content h3 {
+    margin-top: 1rem;
+    font-size: 1.8rem;
+  }
+
+  .kutipan .row .content p {
     font-size: 1.5rem;
   }
 
